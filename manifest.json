@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Dark Mode WebWhatsapp by Alain",
+    "version": "1.0.0",
+    "description": "Alain is Bringing you the Deark mode of WebWhatsapp before whatsapp publishes it",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://web.whatsapp.com/*"]
+    }],
+    "browser_action": {
+        "default_icon": "AlainDARKModeWatsapp.png"
+      }
+   
+  }
